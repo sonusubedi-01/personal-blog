@@ -1,4 +1,7 @@
-
+ function back(){
+    window.location.assign('index.html');
+ }
+ 
 const blogPostsSectionEl = document.querySelector('#blog-posts');
 const storedBlogPosts = JSON.parse(localStorage.getItem('blogPosts')) || [];
 
