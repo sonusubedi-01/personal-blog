@@ -12,19 +12,19 @@
 <body>
     <header>
         <nav>
-            <span>☀️</span>
+            <span class="theme-toggler">☀️</span>
         </nav>
     </header>
-    <main>
-        <section>
-            <figure>
-                <figcaption>My First Blog</figcaption>
+    <main class="container">
+        <section class="circle-section">
+            <figure class="circle">
+                <figcaption class="circle-text">My First Blog</figcaption>
             </figure>
         </section>
-        <section>
+        <section class="form-section">
             <h1>What's on your mind?</h1>
-            <form>
-                <div>
+            <form class="blog-form">
+                <div class="input-group">
                     <label for="username">Username</label>
                     <input type="text" id="username" name="username" />
                 </div>
@@ -34,7 +34,7 @@
                 </div>
                 <div class="input-group">
                     <label for="content">Content</label>
-                    <textarea id="content" name="content"></textarea>
+                    <textarea id="content" name="content" rows="3"></textarea>
                 </div>
                 <div class="input-group">
                     <input type="submit" value="Submit" id="submit-post" />
