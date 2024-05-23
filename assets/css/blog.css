@@ -13,6 +13,10 @@ header nav {
     gap: 10px;
 }
 
+main {
+    min-height: calc(100vh - 97px - 215px);
+}
+
 .back-button {
     color: white;
     background-color: #000;
@@ -44,9 +48,8 @@ header nav {
 .footer {
     display: flex;
     justify-content: flex-start;
-    padding: 50px;
+    padding: 60px;
     border-top: 10px double var(--border-color);
-    padding-top: 50px;
     flex: 1;
 }
 
