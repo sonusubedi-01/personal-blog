@@ -8,6 +8,7 @@
 
 body {
     background-color: var(--background-color);
+    color: var(--text-color);
 }
 
 :root {
@@ -27,3 +28,9 @@ body {
     --text-color:white;
     --border-color:grey;
   }
+
+ a{
+    color:var(--text-color);
+    text-decoration: none;
+    cursor: pointer;
+ } 

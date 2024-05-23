@@ -1,0 +1,61 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 92px;
+    border-bottom: 10px double var(--border-color);
+    padding: 10px;
+}
+
+header nav {
+    display: flex;
+    vertical-align: middle;
+    gap: 10px;
+}
+
+.back-button {
+    color: white;
+    background-color: #000;
+    width: 75px;
+}
+
+.blog-content {
+    padding: 25px;
+    font-style: italic;
+}
+
+.blog-posts-section {
+    margin: 15px;
+    display: block;
+    justify-content: space-between;
+}
+
+.box {
+    width: 100%;
+    border: 1px solid var(--border-color);
+    padding: 10px;
+    margin: 10px;
+}
+
+.blog-author {
+    color: gray;
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-start;
+    padding: 50px;
+    border-top: 10px double var(--border-color);
+    padding-top: 50px;
+    flex: 1;
+}
+
+.footer ul {
+    list-style-type: none;
+    flex: 2;
+    font-style: italic;
+}
+
+.footer p {
+    flex: 2;
+}
