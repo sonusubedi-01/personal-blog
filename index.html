@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,8 +8,42 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/form.css">
 </head>
+
 <body>
+    <header>
+        <nav>
+            <span>☀️</span>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <figure>
+                <figcaption>My First Blog</figcaption>
+            </figure>
+        </section>
+        <section>
+            <h1>What's on your mind?</h1>
+            <form>
+                <div>
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" />
+                </div>
+                <div class="input-group">
+                    <label for="title">Title</label>
+                    <input type="text" id="title" name="title" />
+                </div>
+                <div class="input-group">
+                    <label for="content">Content</label>
+                    <textarea id="content" name="content"></textarea>
+                </div>
+                <div class="input-group">
+                    <input type="submit" value="Submit" id="submit-post" />
+                </div>
+            </form>
+        </section>
+    </main>
     <script src="./assets/js/logic.js"></script>
     <script src="./assets/js/form.js"></script>
 </body>
+
 </html>
