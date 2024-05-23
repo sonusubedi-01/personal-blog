@@ -76,6 +76,10 @@ header {
     display: flex;
     flex-direction: column;
   }
+
+  input, textarea {
+    padding: 7px;
+}
   
   input[type='submit'] {
     color: white;
