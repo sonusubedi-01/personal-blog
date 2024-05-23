@@ -21,3 +21,9 @@ body {
     font-size: 22px;
     padding-right: 10px;
 }
+
+.dark-theme {
+    --background-color: black;
+    --text-color:white;
+    --border-color:grey;
+  }
