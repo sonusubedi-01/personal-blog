@@ -1,13 +1,13 @@
-const usernameInput = document.querySelector('#name');
+const usernameInput = document.querySelector('#username');
 const titleInput = document.querySelector('#title');
 const contentInput = document.querySelector('#content');
 const submitButton = document.querySelector('#submit-post');
 
 submitButton.addEventListener('click', function (event) {
     event.preventDefault();
-    const username = document.getElementById('username').value.trim();
-    const title = document.getElementById('title').value.trim();
-    const content = document.getElementById('content').value.trim();
+    const username = usernameInput.value.trim();
+    const title = titleInput.value.trim();
+    const content = contentInput.value.trim();
 
     if (!username || !title || !content) {
         alert("Please enter all fields");
